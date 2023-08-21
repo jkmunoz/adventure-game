@@ -5,7 +5,7 @@ items = []
 
 def story(story_to_print):
     print(story_to_print)
-    time.sleep(2)
+    time.sleep(3)
 
 
 def valid_input(prompt, option1, option2):
