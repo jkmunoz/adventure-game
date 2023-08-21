@@ -94,6 +94,7 @@ def play_again():
                            'yes', 'no')
     while True:
         if 'yes' in response:
+            items.clear()
             return play_game()
         elif 'no' in response:
             print("Thanks for playing!")
