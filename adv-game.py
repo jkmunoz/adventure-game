@@ -1,5 +1,6 @@
 import time
-import random
+import secrets
+
 items = []
 
 
@@ -52,7 +53,7 @@ def bright_meadow():
 
 def dark_path():
     monsters = ["troll", "giant spider", "warewolf"]
-    monsters = monsters[random.randint(0, 2)]
+    monsters = monsters[secrets.SystemRandom().randint(0, 2)]
     story('You make your way down the dark path\n '
           'full of tightly grown trees.\n')
     story('As you fight through the entangled branches\n'
